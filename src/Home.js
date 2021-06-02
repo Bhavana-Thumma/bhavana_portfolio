@@ -71,13 +71,16 @@ export default function Home(){
                         <div class="home__data">
                             <h1 class="home__title">Hi,<br />I'm <span class="home__title-color">Bhavana</span><br /> Web Developer</h1>
 
-                            <a href="#" class="button">Contact</a>
+                            <a href="#contact" class="button">Contact</a>
                         </div>
 
                         <div class="home__social">
-                            <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                            <a target="blank" href="https://www.linkedin.com/in/bhavanathumma/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
                             {/* <a href="" class="home__social-icon"><i class='bx bxl-behance' ></i></a> */}
-                            <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                            <a target="blank" href="https://github.com/Thumma-Bhavana" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                            <a target="blank" href="https://www.hackerrank.com/bhavanathumma31">                                
+                                <svg fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 32 32" width="32px" height="32px"><path d="M 15.998047 3 C 14.225047 3 5.5352031 7.9839062 4.6582031 9.5039062 C 3.7802031 11.024906 3.7802031 20.983047 4.6582031 22.498047 C 5.5392031 24.017047 14.229047 29 15.998047 29 C 17.762047 29 26.451938 24.019953 27.335938 22.501953 C 28.222938 20.979953 28.222938 11.014047 27.335938 9.4980469 L 27.335938 9.4960938 C 26.444937 7.9790937 17.756047 3 15.998047 3 z M 15.996094 5.0117188 C 17.693094 5.3647187 24.417703 9.2167656 25.595703 10.509766 C 26.135703 12.150766 26.134703 19.844281 25.595703 21.488281 C 24.425703 22.779281 17.695094 26.636281 15.996094 26.988281 C 14.298094 26.638281 7.5723906 22.783234 6.4003906 21.490234 C 5.8653906 19.842234 5.8653906 12.155766 6.4003906 10.509766 C 7.5693906 9.2167656 14.297094 5.3617187 15.996094 5.0117188 z M 13 9 L 11 11 L 12 11 L 12 21 L 14 21 L 14 17 L 18 17 L 18 21 L 17 21 L 19 23 L 21 21 L 20 21 L 20 12 L 18 12 L 18 15 L 14 15 L 14 11 L 15 11 L 13 9 z"/></svg>
+                            </a>
                         </div>
 
                         <div class="home__img">
@@ -191,7 +194,7 @@ export default function Home(){
                             </div>
 
                             <div>
-                                <img src="work5.jpg" alt="" class="skills__img" />
+                                <img src="skills.jpg" alt="" class="skills__img" />
                             </div>
                         </div>
                     </section>
@@ -212,10 +215,10 @@ export default function Home(){
                                 <img src="work1.jpg" alt="" onClick={() => handleShow1()} />
                             </div>
                             <div class="work__img" >
-                                <img src="work2.gif" alt="" onClick={() => handleShow2()}/>
+                                <img src="work2.jpg" alt="" onClick={() => handleShow2()}/>
                             </div>
                             <div class="work__img">
-                                <img src="work3.jpg"  alt="" onClick={() => handleShow3()}/>
+                                <img src="work3.gif"  alt="" onClick={() => handleShow3()}/>
                             </div>
                             <div class="work__img">
                                 <img src="work4.jpg"  alt="" onClick={() => handleShow4()}/>
@@ -224,7 +227,7 @@ export default function Home(){
                                 <img src="work5.jpg" alt="" onClick={() => handleShow5()}/>
                             </div>
                             <div class="work__img">
-                                <img src="work6.jpg"  alt="" onClick={() => handleShow6()}/>
+                                <img src="work6.gif"  alt="" onClick={() => handleShow6()}/>
                             </div>
                             <div class="work__img">
                                 <img src="work7.jpg"  alt="" onClick={() => handleShow7()}/>
@@ -249,11 +252,11 @@ export default function Home(){
                 <footer class="footer">
                     <p class="footer__title">Made with <i class='bx bx-heart-circle' ></i> by Bhavana</p>
                     <div class="footer__social">
-                        <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
-                        <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
-                        <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+                        <a target="blank" href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                        <a target="blank" href="https://www.instagram.com/bhavanathumma/" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                        <a target="blank" href="https://twitter.com/BhavanaThumma" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
                     </div>
-                    <p>&#169; 2020 copyright all right reserved</p>
+                    <p>&#169; 2021 copyright all right reserved</p>
                 </footer>
 
                 
@@ -263,37 +266,28 @@ export default function Home(){
           </Modal.Header>
           <Modal.Body>
             <div>
-                <h4>Technologies used<br/>
+                <h4>Technologies used: </h4>
+                <h6>
                 Frontend : Html, CSS, Bootstrap, React JS<br/>
-
-                Code Versioning Systems: Git and GitHub</h4>
+                Code Versioning Systems: Git and GitHub</h6><br/>
                 <p>
-                Sprint 1: Learnings
-                Learned about the SCRUM methodology
-                Learned various attributes and aspects of SCRUM
-                Decided on what technologies are needed to develop the Web Application
-                Finalised MERN technologies
-                Worked on the basics of MERN technologies
-                Learned how to create the User stories and branches in GitHub
-                Also learned how to write Acceptance criteria for a user Story
-                Developed a basic Signin/Signup page using MERN <br/><br/>
-                Sprint 2: Learnings
-                Started implementing the User story 1 which is to create a Sign-in/Sign Out page for farmer and customer
-                Created the User Interface using React JS
-                Created a database in MongoDB and connected UI and Database using Express and Node
-                For Sign up process the user must specify his/her First name, Last name, E-mail Address, Password to login to the Web application
-                Tried to implement the Google Authentication for Sign-in/Sign-up but faced many errors and issues while connecting it to the database
-                So, implemented tradtional sign-in method
-                After Sign-in we implemented the Sign-Out process for the user to sign out of the application
-                <br/><br/>
-                Sprint 2: Learnings
-                Started implementing the User story 1 which is to create a Sign-in/Sign Out page for farmer and customer
-                Created the User Interface using React JS
-                Created a database in MongoDB and connected UI and Database using Express and Node
-                For Sign up process the user must specify his/her First name, Last name, E-mail Address, Password to login to the Web application
-                Tried to implement the Google Authentication for Sign-in/Sign-up but faced many errors and issues while connecting it to the database
-                So, implemented tradtional sign-in method
-                After Sign-in we implemented the Sign-Out process for the user to sign out of the application</p>
+                <strong>Sprint 1: Learnings</strong><br/>
+                Worked on product backlog to understand. Work on Sign-in page appearance where user email and password have to be verified to match the requirement and eye symbol has to be included for password visibility. For sign-in also included social login buttons for a better user experience. Worked on setting up the navbar for sign-in and signup components with toggle mode. Setting up the font size, family, etc, took little time. We have taken the feedback from mentors and peers to verify our sprint work and noted changes that are needed to be made. The colors and animation settings are done. Sign-in and Signup buttons were set. Integrated all the pages and worked on their responsiveness. Finally, an appealing sign-in signup page is created.
+                </p><br/>
+                <p>
+                <strong>Sprint 2: Learnings</strong><br/>
+                Integrated all the pages and make them responsive. Learned basics of AWS Amplify and Cognito and practiced authentication. Analyzed the cost of AWS Amplify and Cognito. Prepared the document on cost prediction, learned the workflow with Amplify to authenticate, and started working on sign-up and sign-in authentication. Working on sign-up and sign-in authentication.
+                </p><br/>
+                <p>
+                <strong>Sprint 3: Learnings</strong><br/>
+                Learn How to get skills from the LinkedIn profile with the help of documentation. Worked on aspiration page UI. Worked on the basic design of the Aspiration page UI, which has one autocomplete field, a drop-down, a navbar with page links and image showing statistics, and a button to proceed. tried for a better look of autocomplete field use the scroll bar for the data list to fit into the area. set the page and update the job titles with the given JSON file. later populate the options with titles got from API call.
+                </p><br/>
+                <p>
+                <strong>Sprint 4: Learnings</strong><br/>
+                Getting job titles from JSON file is redundant. Worked on finding libraries for text extraction from any type of file. Acquired exposure on getting a specific text like email, phone number, skills, etc using NLP. Could read the pdf and txt files. Worked to find different resources to get skills from the resume for further process. Able to extract skills from the pdf and text file given the list of skills (Bruteforce Algorithm). Worked on UI theme and color to make it bluer for a better look.
+                </p><br/>
+
+
 
             </div>
           </Modal.Body>
