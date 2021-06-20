@@ -43,9 +43,9 @@ const Body = (props) => {
 
                 <div>
                     <h2 class="about__subtitle">I'm Bhavana</h2>
-                    <p class="about__text">A goal-oriented IT student, seeking to work as a software developer at Testpress Tech Labs LLP, where I can apply my
+                    <p class="about__text">A goal-oriented IT student, seeking to work as a software developer in a fast-growing company, where I can apply my
                     experience in working on a diverse array of IT projects using my language proficiency in Python, Java, JavaScript, React
-                JS, SQL, HTML, CSS.</p>
+                JS, DBMS, HTML, CSS.</p>
                 </div>
             </div>
         </section>

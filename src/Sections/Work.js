@@ -66,7 +66,7 @@ const Work = (props) => {
           <Modal.Header closeButton>
             <Modal.Title>Connect 4</Modal.Title>
           </Modal.Header>
-          <Modal.Body>Modal body 2
+          <Modal.Body>Modal body 2            
           </Modal.Body>
         </Modal>
 
