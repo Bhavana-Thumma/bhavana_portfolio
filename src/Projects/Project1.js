@@ -33,28 +33,28 @@ const Project1 = (props) => {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="jobverz2.png"
+                src="jobverz2.PNG"
                 alt="Second slide"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="jobverz3.png"
+                src="jobverz3.PNG"
                 alt="Third slide"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="jobverz4.png"
+                src="jobverz4.PNG"
                 alt="Third slide"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="jobverz5.png"
+                src="jobverz5.PNG"
                 alt="Third slide"
               />
             </Carousel.Item>
