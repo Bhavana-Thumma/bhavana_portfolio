@@ -7,3 +7,6 @@
 .carousel-control-prev-icon{
     background-image: url("https://img.icons8.com/ios/50/000000/circled-chevron-left.png");
 }
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+}

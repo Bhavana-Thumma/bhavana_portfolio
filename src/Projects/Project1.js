@@ -17,7 +17,7 @@ const Project1 = (props) => {
     <div>
       <Row>
         <Col></Col>
-        <Col xs={10} style={{ border: "solid gray" }}>
+        <Col xs={8} style={{ border: "solid gray" }}>
           <Carousel
             activeIndex={index}
             onSelect={handleSelect}
@@ -33,28 +33,28 @@ const Project1 = (props) => {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="jobverz2.PNG"
+                src="jobverz2.png"
                 alt="Second slide"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="jobverz3.PNG"
+                src="jobverz4.png"
                 alt="Third slide"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="jobverz4.PNG"
+                src="jobverz5.png"
                 alt="Third slide"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="jobverz5.PNG"
+                src="jobverz6.png"
                 alt="Third slide"
               />
             </Carousel.Item>
@@ -68,7 +68,7 @@ const Project1 = (props) => {
         <Col sm={11}>
           <h4>Technologies used: </h4>
           <h6>
-            Frontend : Html, CSS, Bootstrap, React JS
+            Frontend : Html, CSS, Bootstrap, Javascript, React JS
             <br />
             Backend: AWS Amplify, Cognito
             <br />

@@ -1,6 +1,9 @@
 import {React, useState} from 'react';
 import Modal from 'react-bootstrap/Modal';
 import Project1 from '../Projects/Project1';
+import Project2 from '../Projects/Project2';
+// import Project3 from '../Projects/Project3';
+import Project4 from '../Projects/Project4';
 /**
 * @author
 * @function Work
@@ -55,7 +58,7 @@ const Work = (props) => {
    
         <Modal show={show1}   scrollable={true} size={'xl'} onHide={() => setShow1(false)}>
           <Modal.Header closeButton>
-            <Modal.Title>Multiverz</Modal.Title>
+            <Modal.Title><img src="jobverz0.png" align= "left" style={{height:"30px", width: "30px"}}/>&nbsp;Multiverz</Modal.Title>
           </Modal.Header>
           <Modal.Body>
             <Project1/>
@@ -66,7 +69,8 @@ const Work = (props) => {
           <Modal.Header closeButton>
             <Modal.Title>Connect 4</Modal.Title>
           </Modal.Header>
-          <Modal.Body>Modal body 2            
+          <Modal.Body>
+          <Project2/>            
           </Modal.Body>
         </Modal>
 
@@ -74,7 +78,9 @@ const Work = (props) => {
           <Modal.Header closeButton>
             <Modal.Title>Quiz Application</Modal.Title>
           </Modal.Header>
-          <Modal.Body>Modal body 3
+          <Modal.Body>
+          {/* <Project3/>         */}
+          Model 3
           </Modal.Body>
         </Modal>
 
@@ -82,7 +88,8 @@ const Work = (props) => {
           <Modal.Header closeButton>
             <Modal.Title>ToDo List</Modal.Title>
           </Modal.Header>
-          <Modal.Body>Modal body 4
+          <Modal.Body>
+            <Project4/>    
           </Modal.Body>
         </Modal>
 
