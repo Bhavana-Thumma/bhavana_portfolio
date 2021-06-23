@@ -54,7 +54,7 @@ const Project3 = (props) => {
         <Col sm={11}>
           <h4>Technologies used: </h4>
           <h6>
-            Frontend : Html, CSS, Bootstrap, Javascript, React JS
+            Frontend : Html, Bootstrap, Javascript, AJAX
             <br />
             Code Versioning Systems: Git and GitHub
             <br />
@@ -69,14 +69,9 @@ const Project3 = (props) => {
           <p>
             <strong>Description</strong>
             <ol>
-              <li>
-                Here in this to do list user can add and update the tasks with
-                timer and can delete them when needed.
-              </li>
-              <li>The tasks will be deleted after specified time.</li>
-              <li>
-                The deleted tasks will be in recycle bin from there user can
-                restore or delete them permanently.
+              <li>Used AJAX for fetching the questions dynamically from JSON file and showing it in the frontend.</li>
+              <li>Test will last for specified time and questions will disappear.</li>
+              <li>The test score and attempted questions will be displayed.
               </li>
             </ol>
           </p>
