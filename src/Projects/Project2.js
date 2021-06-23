@@ -60,6 +60,8 @@ const Project2 = (props) => {
             <br />
             Team Size: 1
             <br />
+            Link: <a target="blank" href="https://deploy-connect4.herokuapp.com/">Connect4</a>
+            <br />
             {/* Link:{" "}
             <a target="blank" href="https://dev.d1lnakdl8cijq4.amplifyapp.com/">
               Jobvez
