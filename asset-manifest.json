@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/bhavana_portfolio/static/css/main.74bf7733.chunk.css",
-    "main.js": "/bhavana_portfolio/static/js/main.b5f6d6f2.chunk.js",
-    "main.js.map": "/bhavana_portfolio/static/js/main.b5f6d6f2.chunk.js.map",
+    "main.js": "/bhavana_portfolio/static/js/main.66d9338f.chunk.js",
+    "main.js.map": "/bhavana_portfolio/static/js/main.66d9338f.chunk.js.map",
     "runtime-main.js": "/bhavana_portfolio/static/js/runtime-main.2471079b.js",
     "runtime-main.js.map": "/bhavana_portfolio/static/js/runtime-main.2471079b.js.map",
-    "static/js/2.dc979c70.chunk.js": "/bhavana_portfolio/static/js/2.dc979c70.chunk.js",
-    "static/js/2.dc979c70.chunk.js.map": "/bhavana_portfolio/static/js/2.dc979c70.chunk.js.map",
+    "static/js/2.24ef806d.chunk.js": "/bhavana_portfolio/static/js/2.24ef806d.chunk.js",
+    "static/js/2.24ef806d.chunk.js.map": "/bhavana_portfolio/static/js/2.24ef806d.chunk.js.map",
     "static/js/3.ef6d66cf.chunk.js": "/bhavana_portfolio/static/js/3.ef6d66cf.chunk.js",
     "static/js/3.ef6d66cf.chunk.js.map": "/bhavana_portfolio/static/js/3.ef6d66cf.chunk.js.map",
     "index.html": "/bhavana_portfolio/index.html",
     "static/css/main.74bf7733.chunk.css.map": "/bhavana_portfolio/static/css/main.74bf7733.chunk.css.map",
-    "static/js/2.dc979c70.chunk.js.LICENSE.txt": "/bhavana_portfolio/static/js/2.dc979c70.chunk.js.LICENSE.txt"
+    "static/js/2.24ef806d.chunk.js.LICENSE.txt": "/bhavana_portfolio/static/js/2.24ef806d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.2471079b.js",
-    "static/js/2.dc979c70.chunk.js",
+    "static/js/2.24ef806d.chunk.js",
     "static/css/main.74bf7733.chunk.css",
-    "static/js/main.b5f6d6f2.chunk.js"
+    "static/js/main.66d9338f.chunk.js"
   ]
 }
