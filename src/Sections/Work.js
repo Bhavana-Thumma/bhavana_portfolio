@@ -4,6 +4,9 @@ import Project1 from '../Projects/Project1';
 import Project2 from '../Projects/Project2';
 import Project3 from '../Projects/Project3';
 import Project4 from '../Projects/Project4';
+import Project5 from '../Projects/Project5';
+import Project6 from '../Projects/Project6';
+import Project7 from '../Projects/Project7';
 /**
 * @author
 * @function Work
@@ -97,7 +100,7 @@ const Work = (props) => {
           <Modal.Header closeButton>
             <Modal.Title>Banking Application</Modal.Title>
           </Modal.Header>
-          <Modal.Body>Modal body 5
+          <Modal.Body><Project5/>
           </Modal.Body>
         </Modal>
 
@@ -105,7 +108,7 @@ const Work = (props) => {
           <Modal.Header closeButton>
             <Modal.Title>Conways Game of life</Modal.Title>
           </Modal.Header>
-          <Modal.Body>Modal body 6
+          <Modal.Body><Project6/>
           </Modal.Body>
         </Modal>
 
@@ -113,7 +116,7 @@ const Work = (props) => {
           <Modal.Header closeButton>
             <Modal.Title>Mariah Vs Rihanna</Modal.Title>
           </Modal.Header>
-          <Modal.Body>Modal body 7
+          <Modal.Body><Project7/>
           </Modal.Body>
         </Modal>
 
