@@ -76,99 +76,111 @@ const Project1 = (props) => {
             <br />
             Link:{" "}
             <a target="blank" href="https://dev.d1lnakdl8cijq4.amplifyapp.com/">
-              Jobvez
+              Jobvez Application
+            </a>
+            <br />
+            Link to {" "}
+            <a target="blank" href="https://thumma-bhavana.github.io/bhavana_multiverz_portfolio/">
+              Sprint Work
             </a>
           </h6>
           <br />
           <p>
-            <strong>Sprint 1: Learnings</strong>
+            <strong>Sprint 1: UI/UX design, Work on Web Pages</strong>
             <br />
-            Worked on product backlog to understand. Work on Sign-in page
-            appearance where user email and password have to be verified to
-            match the requirement and eye symbol has to be included for password
-            visibility. For sign-in also included social login buttons for a
-            better user experience. Worked on setting up the navbar for sign-in
-            and signup components with toggle mode. Setting up the font size,
-            family, etc, took little time. We have taken the feedback from
-            mentors and peers to verify our sprint work and noted changes that
-            are needed to be made. The colors and animation settings are done.
-            Sign-in and Signup buttons were set. Integrated all the pages and
-            worked on their responsiveness. Finally, an appealing sign-in signup
-            page is created.
+            <ol>
+            <li>Learned about the SCRUM methodology</li>
+            <li>Learned various attributes and aspects of SCRUM</li>
+            <li>Started implementing the User story 1, which is to create Sign-in page</li>
+            <li>Developed Sign-in page UI using React JS</li>
+            <li>Where user email and password have to be verified to match the requirement along with toggle password visibility</li>
+            <li>Worked on setting up the navbar for sign-in and signup components with toggle mode</li>
+            <li>Included social login buttons for user convinience</li>
+            <li>Integrated all the the landing/Sign-in/Sign-up/Sign-out pages and worked on their responsiveness</li>
+            <li><a href="https://dev.d1lnakdl8cijq4.amplifyapp.com/">Feel free to checkout the Demo</a></li>
+            </ol>
           </p>
           <br />
           <p>
-            <strong>Sprint 2: Learnings</strong>
+            <strong>Sprint 2: AWS-amplify, Cognito, S3</strong>
             <br />
-            Integrated all the pages and make them responsive. Learned basics of
-            AWS Amplify and Cognito and practiced authentication. Analyzed the
-            cost of AWS Amplify and Cognito. Prepared the document on cost
-            prediction, learned the workflow with Amplify to authenticate, and
-            started working on sign-up and sign-in authentication. Working on
-            sign-up and sign-in authentication.
+            <ol>
+            <li>Learned how to create the User stories and branches in GitHub</li>
+            <li>Learned how to write Acceptance criteria for a user </li>
+            <li>Started research on how to use AWS Amplify and cognito as the main authentication provider</li>
+            <li>AWS Amplify handles user registration, authentication, account recovery and other operations</li>
+            <li>Analyzed the cost of AWS Amplify and Cognito and repared a documentation</li>
+            <li>Worked on AWS Amplify to authenticate the </li>
+            </ol>
           </p>
           <br />
           <p>
-            <strong>Sprint 3: Learnings</strong>
+            <strong>Sprint 3: Aspiration Page UI</strong>
             <br />
-            Learn How to get skills from the LinkedIn profile with the help of
-            documentation. Worked on aspiration page UI. Worked on the basic
-            design of the Aspiration page UI, which has one autocomplete field,
-            a drop-down, a navbar with page links and image showing statistics,
-            and a button to proceed. tried for a better look of autocomplete
-            field use the scroll bar for the data list to fit into the area. set
-            the page and update the job titles with the given JSON file. later
-            populate the options with titles got from API call.
+            <ol>
+            <li>Started implementing the new user story, which is to create an aspiration page</li>
+            <li>Created the User Interface using React JS</li>
+            <li>Where user can select the aspired job title from an autocomplete field and select the duration from a drop-down, so that he can proceed</li>
+            <li>A navbar with page links and image showing statistics were included</li>
+            <li>populated the data list options with job titles retrieved from API.</li>
+            </ol>
           </p>
           <br />
           <p>
-            <strong>Sprint 4: Learnings</strong>
+            <strong>Sprint 4: Resume parsing</strong>
             <br />
-            Getting job titles from JSON file is redundant. Worked on finding
-            libraries for text extraction from any type of file. Acquired
-            exposure on getting a specific text like email, phone number,
-            skills, etc using NLP. Could read the pdf and txt files. Worked to
-            find different resources to get skills from the resume for further
-            process. Able to extract skills from the pdf and text file given the
-            list of skills (Bruteforce Algorithm). Worked on UI theme and color
-            to make it bluer for a better look.
+            <ol>
+            <li>Started Research on how to extract skills from Resume using NLP and Python</li>
+            <li>Able to extract skills from the pdf and text file given the list of skills (Bruteforce Algorithm)</li>
+            <li>Discovered that two libraries in python ie., Pyreparser and resumeparser, provides the facility to extract skills from resume of any format</li>
+            <li>Acquired exposure on getting a specific text like email, phone number, skills, etc using NLP.</li>
+            <li>Tried using NLP for skills extraction, some worked and some didn’t</li>
+            </ol>
           </p>
           <br />
           <p>
-            <strong>Sprint 5: Learnings</strong>
+            <strong>Sprint 5: Research-LER[Learning and employment records]</strong>
             <br />
-            Worked on changing UI based on client response as a team and made a
-            research to know about Digital Credential Systems. Getting more
-            insights about digital credentials and advantages of block chain in
-            digital credentials. Prepared PPT based on the information we
-            collected. Discussed and organised the PPt slides for presentations
-            and Presented it to Mentors. Worked on LERs and changing the theme
-            of the pages.
+            <ol>
+            <li>Started Research on How data is maintained globally</li>
+            <li>Checked references on LER from emsi and MIT University</li>
+            <li>Learnt how the digital credential systems work and store the credentials</li>
+            <li>Got to know how issuer issue the credential and how the learner accepts the credential digitally in either the form of badges and certifications.</li>
+            <li>Researced on digital wallets for storing credentials from different sources.</li>
+            <li>Right now, only couple of companies are accessing this Credential system all over the world.</li>
+            <li><a href="https://www.commerce.gov/sites/default/files/2020-09/LERwhitepaper09222020.pdf">Checkout the white paper on LERs</a></li>
+            </ol>
           </p>
           <br />
           <p>
-            <strong>Sprint 6: Learnings</strong>
+            <strong>Sprint 6: Skills graph</strong>
             <br />
-            Client meeting, retrospective and worked on impediments. Worked on
-            Graph page UI in userstories to drag the skill chips into graph
-            coloumns according to user proficiency, so that the skill chips will
-            automatically get adjusted according to trend. Worked on Setting up
-            a left side panel for skill buttons and a droppable table for
-            draggable skills for a basic functionality. Then worked on
-            auto-adjust the skill chips according to trend setting a dictionary
-            with keys: skills and values: trend value. worked on theme and color
-            setting, x and y axis setting and auto-shrink buttons and button
-            color change.
+            <ol>
+            <li>As a part of aspiration, I worked on skills mapping with the graph based on the demand and highest profiency of the skills.</li>
+            <li>The main functionality, of using this page is, it gives the user an option to select the skills from resume/ directly searches for the skill based on job titles and can map 3. on the scale of 0-10.</li>
+            <li>User will drag and drop the skill based on the profecincy.</li>
+            <li>Designed the UI part based on the scale.</li>
+            </ol>
           </p>
           <br />
           <p>
-            <strong>Sprint 7: Learnings</strong>
+            <strong>Sprint 7: Storage of User Details on S3 using Amplify Storage</strong>
             <br />
-            Worked on graph impediments. Done with Steps to Goal UI using
-            Bootstrap 5 and Custom CSS. Research on Imlement S3 Storage of user
-            info using Amplify. Amplify reinstallation and configuring storage
-            using automated method. Solved the impediments and completed Amplify
-            storage setups and start working on storing user details.
+            <ol>
+            <li>Worked on getting user details from all pages</li>
+            <li>Worked on store the user details in S3 using Amplify Storage</li>
+            <li>Able to get store the user details in S3</li>
+            </ol>
+          </p>
+          <br />
+          <p>
+            <strong>Sprint 8: Storage of User Details on S3 using Amplify Storage and Integration</strong>
+            <br />
+            <ol>
+            <li>Done with storing user details</li>
+            <li>Able to fetch them to display in userprofile page</li>
+            <li>Done integrating all the pages</li>
+            </ol>
           </p>
           <br />
         </Col>
